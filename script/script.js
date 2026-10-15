@@ -34,7 +34,7 @@ if (searchUser === null || searchUser.trim() === "") {
         }
     }
 }
-        users.forEach(element => {
+        users.forEach(user => {
       // read
-      console.log(element);
+      console.log(user);
     });
